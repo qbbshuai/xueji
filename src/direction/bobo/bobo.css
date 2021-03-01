@@ -1,0 +1,13 @@
+
+.bobo{
+  transform: scale(0);
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+.bobo.active{
+  transform: scale(2.5);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out,transform 0.3s ease-in;
+}
